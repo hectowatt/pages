@@ -4,11 +4,11 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
     output: "export",
-    basePath: isProd ? '/w477' : '',  // 本番環境だけ適用
+    basePath: isProd ? '/pages' : '',  // 本番環境だけ適用
     trailingSlash: true, // URL に末尾のスラッシュを追加
-    assetPrefix: isProd ? '/w477' : '',
+    assetPrefix: isProd ? '/pages' : '',
     publicRuntimeConfig: {
-        basePath: isProd ? '/w477' : '', // 同じbasePathを公開設定に含める
+        basePath: isProd ? '/pages' : '', // 同じbasePathを公開設定に含める
     },
     images: {
         unoptimized: true,

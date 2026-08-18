@@ -51,7 +51,7 @@ function Header() {
       <div className="flex gap-1 items-center max-w-screen-lg mx-auto ">
         {process.env.NODE_ENV === "production" ? (
           <a
-            href="https://hectowatt.github.io/w477/"
+            href="https://hectowatt.github.io/pages/"
             rel="noopener noreferrer"
           >
             <img src={`${basePath}/w477.png`} alt="w477 Blog Icon"></img>
@@ -69,19 +69,19 @@ function Header() {
           {process.env.NODE_ENV === "production" ? (
             <div>
               <a
-                href="https://hectowatt.github.io/w477/"
+                href="https://hectowatt.github.io/pages/"
                 className="mr-4 hover:underline"
               >
                 Home
               </a>
               <a
-                href="https://hectowatt.github.io/w477/about"
+                href="https://hectowatt.github.io/pages/about"
                 className="mr-4 hover:underline"
               >
                 About
               </a>
               <a
-                href="https://hectowatt.github.io/w477/blog"
+                href="https://hectowatt.github.io/pages/blog"
                 className="mr-4 hover:underline"
               >
                 Blog
