@@ -13,7 +13,7 @@ type LayoutProps = {
 
 export const metadata: Metadata = {
   title: "w477",
-  description: "My blog by Next.js",
+  description: "My web site",
   icons: {
     icon: '${basePath}/favicon.ico', // favicon.icoのパス
     apple: '${basePath}/apple-touch-icon.png', // Apple向けアイコン
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps) {
         <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
         <style>{`:root { --base-path: '${basePath}'; }`}</style>
         <meta name="google-site-verification" content="HWHnOv44YHJ23JtvfwWQSQ83egNh3GvsAVcYHP5Ksf0" />
-        <meta name="description" content="w477 Blog"></meta>
+        <meta name="description" content="w477 Web Site"></meta>
       </head>
       <body className="flex flex-col min-h-screen">
         <Header />
@@ -80,12 +80,6 @@ function Header() {
               >
                 About
               </a>
-              <a
-                href="https://hectowatt.github.io/pages/blog"
-                className="mr-4 hover:underline"
-              >
-                Blog
-              </a>
             </div>
           ) : (
             <div>
@@ -100,12 +94,6 @@ function Header() {
                 className="mr-4 hover:underline"
               >
                 About
-              </a>
-              <a
-                href="http://localhost:3000/blog"
-                className="mr-4 hover:underline"
-              >
-                Blog
               </a>
             </div>
           )
