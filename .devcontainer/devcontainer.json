@@ -1,0 +1,7 @@
+{
+  "name": "Pages Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "postCreateCommand": "npm install"
+}
