@@ -117,17 +117,6 @@ function Footer() {
         {/* アイコン */}
         <div className="flex gap-4">
           <a
-            href="https://misskey.io/@sublimesab"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={`${basePath}/MisskeyIcon.png`}
-              alt="Misskey"
-              className="hover:opacity-80 transition-opacity duration-300"
-            />
-          </a>
-          <a
             href="https://github.com/hectowatt"
             target="_blank"
             rel="noopener noreferrer"
